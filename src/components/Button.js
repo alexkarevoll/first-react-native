@@ -7,7 +7,7 @@ const Button = ({ onPress }) => {
   return (
     <TouchableOpacity onPress={onPress} style={buttonStyle}>
       <Text style={textStyle}>
-        Click Me!
+        Buy Album
       </Text>
     </TouchableOpacity>
   );
